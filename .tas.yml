@@ -3,10 +3,10 @@ framework: mocha
 tier: small
 postMerge:
   pattern:
-    - "./test/test.ts"
+    - "./build/test/utils.js"
 preMerge:
   pattern:
-    - "./test/test.ts"
+    - "./build/test/utils.js"
 preRun:
      command:
         - npm install
